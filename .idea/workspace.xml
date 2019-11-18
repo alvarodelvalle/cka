@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3279b4fc-c7e8-4d1a-b771-5bd96c77e323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/namespace-dev-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pod-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replicaset-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource-quota-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services-nodeport-definition.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments-definition.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pod-binding.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pod-binding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-clusterip-definition.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
