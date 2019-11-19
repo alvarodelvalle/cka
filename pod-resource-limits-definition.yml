@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp-with-limits
+  labels:
+    name: webapp-blue
+spec:
+  containers:
+  - name: webapp-blue
+    image: webapp-blue:v1
+    ports:
+      - containerPort: 8080
+    resources:
+      requests:
+        memory: "1Gi"
+        cpu: 1
+      limits:
+        memory: "2Gi"
+        cpu: 2

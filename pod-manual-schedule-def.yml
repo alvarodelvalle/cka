@@ -1,0 +1,12 @@
+apiVersion: v1
+    kind: Pod
+    metadata:
+      name: redis
+      labels:
+        app: myapp
+
+    spec:
+      containers:
+        - name: redis-container
+          image: redis123
+      nodeName: node01 # SCHEDULING

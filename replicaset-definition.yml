@@ -2,14 +2,14 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name:
-    labels:
+    labels: #labels for the ReplicaSet
       app: myapp
       type: front-end
 spec:
   template:
     metadata:
       name: myapp-prod
-      labels:
+      labels: # labels matching the PODS
         app: myapp
         type: front-end
     spec:
@@ -19,4 +19,5 @@ spec:
   replicas: 3
   selector:
     matchLabels:
+      app: myapp # needs to match the POD label
       type: front-end
