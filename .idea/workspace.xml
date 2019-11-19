@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3279b4fc-c7e8-4d1a-b771-5bd96c77e323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/affinity-pod-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blue-deployment-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daemon-set-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pod-manual-schedule-def.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pod-resource-limits-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red-deployment-definition.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tolerations-pod-def.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-scheduler.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kube-scheduler.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replicaset-definition.yml" beforeDir="false" afterPath="$PROJECT_DIR$/replicaset-definition.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
