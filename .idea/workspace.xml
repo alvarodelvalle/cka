@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3279b4fc-c7e8-4d1a-b771-5bd96c77e323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/custom-scheduler.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kube-scheduler.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pod-env-variables.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
