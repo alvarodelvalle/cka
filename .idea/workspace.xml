@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3279b4fc-c7e8-4d1a-b771-5bd96c77e323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pod-env-variables.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configmap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secrets.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pod-env-variables.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pod-env-variables.yml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,19 +17,26 @@
   </component>
   <component name="ProjectId" id="1TBSbiyj28NMzvFiHewQokXQMzj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -42,18 +50,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572932068062</updated>
+      <workItem from="1577828130941" duration="39000" />
+      <workItem from="1577828184747" duration="306000" />
+      <workItem from="1577828970536" duration="260000" />
+      <workItem from="1578769224264" duration="267000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1577828888861">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577828888861" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1578769229957">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1578769229957" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1577472643579" />
   </component>
 </project>

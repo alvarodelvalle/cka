@@ -9,12 +9,29 @@ spec:
   containers:
     - name: redis-container
       image: redis123
+      envFrom: # load all env key value pairs from configmap definition created with name app-configmap
+        - configMapRef:
+            name: app-configmap
+        # load all env key value pairs secret definition object
+        - secretRef:
+            name: app-secret
       env:
         - name: APP_ENV
           value: dev
-        - name: APP_CONFIG
+        - name: KEY2 # get single env variable from configmap definition created with name app-configmap
           valueFrom:
             configMapKeyRef:
-        - name: APP_SECRET
+              name: app-conifgmap
+              key: KEY2
+        - name: KEY
           valueFrom:
             secretKeyRef:
+              name: app-secret
+              key: KEY
+      volumes: # can load env variables from a volume
+        - name: volume_name
+          configMap:
+            name: app-configmap
+        - name: volume_name
+          secret:
+            secretName: app-secret
